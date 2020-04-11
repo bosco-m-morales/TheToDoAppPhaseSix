@@ -2,6 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import { App } from "./App";
+
 //include bootstrap npm library into the bundle
 import "bootstrap";
 
@@ -9,15 +11,4 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //render your react application
-
-class Home extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>It's Bosco, Bitch!</h1>
-			</div>
-		);
-	}
-}
-
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));
