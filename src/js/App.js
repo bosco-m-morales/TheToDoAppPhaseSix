@@ -13,7 +13,7 @@ export function App() {
 export class App extends Component {
 	constructor() {
 		super();
-		thi.state = {
+		this.state = {
 			items: toDosData
 		};
 	}
