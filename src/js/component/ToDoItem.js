@@ -1,4 +1,5 @@
 import React from "react";
+import { PropTypes } from "prop-types";
 
 export function ToDoItem(props) {
 	return (
@@ -8,3 +9,8 @@ export function ToDoItem(props) {
 		</div>
 	);
 }
+
+ToDoItem.propTypes = {
+	text: PropTypes.string,
+	completed: PropTypes.string
+};

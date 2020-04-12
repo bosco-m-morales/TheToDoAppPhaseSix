@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { ToDoItem } from "./component/ToDoItem";
 import { toDosData } from "./data/ToDosData";
 /*
@@ -10,7 +10,7 @@ export function App() {
 }
 */
 
-export class App extends React.Component {
+export class App extends Component {
 	constructor() {
 		super();
 		thi.state = {
