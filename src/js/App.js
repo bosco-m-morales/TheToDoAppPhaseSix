@@ -18,8 +18,8 @@ export class App extends Component {
 		};
 	}
 	render() {
-		const todoComponents = this.state.items.map(todos => (
-			<ToDoItem key={todos.id} todos={todos} />
+		const todoComponents = this.state.items.map(item => (
+			<ToDoItem key={item.id} todos={item} />
 		));
 		return <div className="todo-list">{todoComponents}</div>;
 	}

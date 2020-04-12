@@ -11,6 +11,5 @@ export function ToDoItem(props) {
 }
 
 ToDoItem.propTypes = {
-	text: PropTypes.string,
-	completed: PropTypes.string
+	todos: PropTypes.object
 };
