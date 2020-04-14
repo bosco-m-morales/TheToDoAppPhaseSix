@@ -2,7 +2,7 @@ export const toDosData = [
 	{
 		id: 1,
 		text: "Read Inspirations by Hazelden",
-		completed: true
+		completed: false
 	},
 	{
 		id: 2,
